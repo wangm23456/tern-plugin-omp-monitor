@@ -1,0 +1,26 @@
+/* OMP 监控面板样式 */
+[data-surface="plugin.omp-monitor.main"].sf-main {
+   padding: 12px 16px;
+   overflow-y: auto;
+}
+
+[data-surface="plugin.omp-monitor.main"].sf-dock {
+   padding: 8px 14px;
+   border-top: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+}
+
+button.sf-btn {
+   background: var(--surface, rgba(255, 255, 255, 0.08));
+   border: 1px solid var(--border, rgba(255, 255, 255, 0.15));
+   border-radius: 4px;
+   padding: 3px 10px;
+   cursor: pointer;
+   color: inherit;
+   font: inherit;
+   margin-right: 6px;
+}
+
+button.sf-btn:hover {
+   background: var(--surface-hover, rgba(255, 255, 255, 0.15));
+   border-color: var(--accent, #61afef);
+}

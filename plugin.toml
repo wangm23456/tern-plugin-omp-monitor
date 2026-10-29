@@ -1,0 +1,14 @@
+schema = 1
+id = "omp-monitor"
+name = "OMP Monitor"
+version = "0.1.0"
+description = "Tern OMP Agent 工作状态监控面板"
+host = "host.luau"
+window = "window.luau"
+styles = ["style.css"]
+
+[[blocks]]
+id = "main"
+title = "OMP Agent Monitor"
+icon = "cpu"
+palette = true
